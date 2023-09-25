@@ -46,9 +46,9 @@ public class MainActivity extends AppCompatActivity {
             return;
         }
 
-        int num1 = Integer.parseInt(firstNumberEditText.getText().toString().trim());
-        int num2 = Integer.parseInt(secondNumberEditText.getText().toString().trim());
-        int result = 0;
+        float num1 = Integer.parseInt(firstNumberEditText.getText().toString().trim());
+        float num2 = Integer.parseInt(secondNumberEditText.getText().toString().trim());
+        float result = 0;
 
         switch (operation) {
             case "add":

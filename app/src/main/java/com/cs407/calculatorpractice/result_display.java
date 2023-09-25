@@ -14,7 +14,7 @@ public class result_display extends AppCompatActivity {
         setContentView(R.layout.activity_result_display);
         resultTextView = findViewById(R.id.textView);
 
-        int result = getIntent().getIntExtra("result", 0);
-        resultTextView.setText(result);
+        float result = getIntent().getFloatExtra("result", 0);
+        resultTextView.setText(String.valueOf(result));
     }
 }
